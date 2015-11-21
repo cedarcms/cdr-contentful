@@ -1,9 +1,31 @@
 # cdr-contentful
 
-JavaScript admin overlay for Cedar CMS
+Cedar CMS integration for Contentful
 
-[![Travis build status](http://img.shields.io/travis/cedarcms/cdr-contentful.svg?style=flat)](https://travis-ci.org/cedarcms/cdr-contentful)
-[![Code Climate](https://codeclimate.com/github/cedarcms/cdr-contentful/badges/gpa.svg)](https://codeclimate.com/github/cedarcms/cdr-contentful)
-[![Test Coverage](https://codeclimate.com/github/cedarcms/cdr-contentful/badges/coverage.svg)](https://codeclimate.com/github/cedarcms/cdr-contentful)
-[![Dependency Status](https://david-dm.org/cedarcms/cdr-contentful.svg)](https://david-dm.org/cedarcms/cdr-contentful)
-[![devDependency Status](https://david-dm.org/cedarcms/cdr-contentful/dev-status.svg)](https://david-dm.org/cedarcms/cdr-contentful#info=devDependencies)
+## Prerequisites
+
+You will need the following things properly installed on your computer.
+
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+
+## Installation
+
+* `git clone <repository-url>` this repository
+* change into the new directory
+* `npm install`
+
+### Running Tests
+
+* `gulp test`
+
+### Building
+
+* `gulp build`
+* `gulp watch`
+
+## Running HTML Example
+
+* `gulp html`
+* Visit your app at [http://localhost:3800](http://localhost:3800).

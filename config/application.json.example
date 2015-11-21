@@ -1,0 +1,6 @@
+{
+  "contentful": {
+    "space": "[YOUR_SPACE_ID]",
+    "accessToken": "[YOUR_ACCESS_TOKEN]"
+  }
+}
